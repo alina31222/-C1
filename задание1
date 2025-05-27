@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main() {
+    float cels, frngt;
+// Входные данные
+    printf("Введите начальную температуру: ");
+    scanf("%f", &cels);
+// Конвертация градусов
+    fhrngt = cels * 9 / 5 + 32;
+    printf("C: %.00f; F: %.2f", cels, frngt);
+    return 0;
+}
