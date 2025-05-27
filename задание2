@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main() {
+// Получаем число
+    int n;
+    printf("Введите число: ");
+    scanf("%d", &n);
+// Резултьтат
+    printf("0 нечёт, 1 чёт\n Наше число %d", tn % 2 == 0);
+    return 0;
+}
