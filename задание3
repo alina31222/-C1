@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+// Получаем числа
+    int a, b, c;
+    printf("Введите числа для (a, b, c): ");
+    scanf("%d %d %d", &a, &b, &c);
+// Умножаем и получаем его знак
+    int mult = a * b * c;
+    int s_mult = (mult > 0) - (mult < 0);
+
+    printf("Sign is %d", s_mult);
+    return 0;
+}
